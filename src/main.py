@@ -2,7 +2,6 @@ import os
 import requests
 import signal
 import sys
-import time
 from dataclasses import dataclass, field
 from pathlib import Path
 from threading import Event
