@@ -1,0 +1,13 @@
+version: "3.5"
+
+services:
+    server:
+        build: .
+        image: dnsupdater
+        container_name: dnsupdater
+        environment:
+            - HOST=${HOST}
+            - USERNAME=${USERNAME}
+            - PASSWORD=${PASSWORD}
+        volumes:
+            - /var/dnsupdater:/data
