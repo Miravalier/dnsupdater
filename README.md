@@ -1,5 +1,5 @@
 # Overview
-This project was intended for personal use. If you're intereste in it, you probably want ddclient, which also supports google domains as of v3.9.0.
+This project was intended for personal use. If you're interested in it, you probably want ddclient, which also supports google domains as of v3.9.0.
 
 I wrote this because I have an irrational hatred of Perl, and all of my dynamic domains are through google. :)
 
